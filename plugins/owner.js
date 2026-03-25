@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/a7zrrn.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *PROD_OFF_MD* 〕━━┈⊷
+            caption: `╭━━〔 *PROD_XMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ PROD OFF HACK`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mr PROD 🇨🇩`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'PROD OFF HACK',
+                    newsletterName: 'Mr PROD 🇨🇩',
                     serverMessageId: 143
                 }            
             }
